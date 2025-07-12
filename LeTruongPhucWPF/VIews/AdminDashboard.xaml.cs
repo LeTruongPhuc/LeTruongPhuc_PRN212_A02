@@ -11,7 +11,7 @@ namespace LeTruongPhucWPF.Views
         {
             InitializeComponent();
             _currentEmployee = employee;
-            Title = $"Admin Dashboard - Welcome {_currentEmployee.Name}";
+            Title = $"Admin Dashboard - Welcome {_currentEmployee.FirstName} {_currentEmployee.LastName}";
         }
     }
 }
