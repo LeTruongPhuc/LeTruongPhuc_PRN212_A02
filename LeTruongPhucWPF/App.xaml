@@ -1,0 +1,13 @@
+﻿<Application x:Class="LeTruongPhucWPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:LeTruongPhucWPF"
+             xmlns:converters="clr-namespace:LeTruongPhucWPF.Converters"
+             StartupUri="Views/LoginView.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <converters:InverseBoolConverter x:Key="InverseBoolConverter"/>
+            <converters:UserLabelConverter x:Key="UserLabelConverter"/>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
